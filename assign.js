@@ -12,26 +12,35 @@ var flag = 0;
 // var hide = function  {
 // 	homepage.className = 'inactive';
 // }
-	home.addEventListener("click",toggle);
-	projects.addEventListener("click",toggle);
-	resume.addEventListener("click",toggle);
+
+	home.addEventListener("click",toggle1);
+	projects.addEventListener("click",toggle2);
+	resume.addEventListener("click",toggle3);
 
 
 
-function toggle(){
 
-	if(home.clicked == true)
-	{
-		
+function toggle1(){
+
 		homepage.style.display="block";
-		alert("home");	
-	}
-	else if (projects.clicked == true){
+		skill.style.display="block";
+		projectspage.style.display="none";
+		resumepage.style.display="none";
+
+		alert("home");	}
+	
+function toggle2(){
 		
+		homepage.style.display="none";
+		skill.style.display="none";
 		projectspage.style.display="block";
+		resumepage.style.display="none";
+		}
+	
+	function toggle3(){
+		homepage.style.display="none";
+		skill.style.display="none";
+		projectspage.style.dis	play="none";
+		resumepage.style.display="block";
 		
 	}
-	else if(resume.clicked==true){
-		projectspage.style.display="block";
-	}
-}
