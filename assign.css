@@ -1,0 +1,58 @@
+
+body{
+
+	background-color: #584696;
+	margin: 40px;
+
+}
+#content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: lightgrey;
+	padding: 20px;
+}
+#skill{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: lightgrey;
+	padding: 20px;
+
+}
+.home {
+	background-image: url(intro-bg.jpg);
+	 height: 41em;
+	 background-size: cover;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 
+}
+.container h3{
+	text-align: center;
+
+}
+#content .row div{
+border: solid 1px green;
+margin: 10px;
+background-color: lightgrey;
+
+}
+#projects {
+background-color: lightgrey;
+	padding: 20px;
+}
+
+#Resume{
+	margin: 40px;
+	background-color: lightgrey;
+	padding: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+table{
+	width: 100%;
+	text-align: center;
+}
+.inactive{
+	display: none;
+}
