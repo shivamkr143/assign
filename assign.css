@@ -53,6 +53,7 @@ table{
 	width: 100%;
 	text-align: center;
 }
-.inactive{
-	display: none;
-}
+.project_det{
+	padding: 20px;
+	margin: 10px;
+} 
