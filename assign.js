@@ -12,11 +12,9 @@ var flag = 0;
 // var hide = function  {
 // 	homepage.className = 'inactive';
 // }
-
 	home.addEventListener("click",toggle1);
 	projects.addEventListener("click",toggle2);
 	resume.addEventListener("click",toggle3);
-
 
 
 
@@ -40,7 +38,7 @@ function toggle2(){
 	function toggle3(){
 		homepage.style.display="none";
 		skill.style.display="none";
-		projectspage.style.dis	play="none";
+		projectspage.style.display="none";
 		resumepage.style.display="block";
 		
 	}
