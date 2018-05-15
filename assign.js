@@ -12,6 +12,10 @@ var flag = 0;
 // var hide = function  {
 // 	homepage.className = 'inactive';
 // }
+
+projectspage.style.display="none";
+resumepage.style.display="none";
+
 	home.addEventListener("click",toggle1);
 	projects.addEventListener("click",toggle2);
 	resume.addEventListener("click",toggle3);
