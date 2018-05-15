@@ -1,2 +1,6 @@
-I have created a framework done the html and css part have to integrate the js with html
-
+html file:  assign.html
+js file : assign.js
+css file : assign.css
+features
+toggle navigation bar
+contents get changes on clickng on options on nav bar
